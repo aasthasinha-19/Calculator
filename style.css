@@ -20,8 +20,9 @@ form{
    
 }
 #answer{
-    width:390px;
+    width:375px;
     height:80px;
+    margin-left: 15px;
     color:blue ;
     font-size: large;
     font-weight: bold;
@@ -39,7 +40,8 @@ form{
 #clear{
     text-align: center;
     background-color: red;
-    width: 400px;
+    margin-left: 15px;
+    width:375px;
     height: 50px;
     font-size: large;
     font-weight: bold;
@@ -66,4 +68,24 @@ img{
     font-weight: bold;
     color: blue;
     margin-top:50px;
+}
+#clear:hover{
+    color:white;
+    background-color: blue;
+}
+@media screen and (max-width:600px) {
+
+    #answer{
+        margin-left:18px;
+        width: 350px;
+        
+    }
+    #clear{
+        margin-left: 15px;
+        width:360px;
+    }
+    #button{
+        width:75px;
+    }
+    
 }
